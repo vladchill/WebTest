@@ -5,6 +5,7 @@
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<meta http-equiv="Refresh" content="4">-->
         <link rel="stylesheet" href="css/newcss.css">
         <script src="js/newjavascript.js"></script>       
     </head>
@@ -16,20 +17,31 @@
             <datalist id="browsers" >
                 <option value="Internet Explorer" >
                 <option value="Fire Fox" >
-                <option value="Chrome" >
+                <option value="Chrome new" label="Chrome">
                 <option value="Opera" >
                 <option value="Safari" >
             </datalist>
             <input  type="search" name="q" placeholder="Поиск по сайту">
             <fieldset>
                 <legend>tt</legend>
-                <button>fdghfgh</button>
+                <button name="bb1">fdghfgh</button>
             </fieldset>
             <input type="text" list="browsers" placeholder="Set browsers">
             <input type="text" autofocus maxlength="5">
-            <input type="text" pattern="[0-9]*" placeholder="only digits"  autocomplete="off">   
-            <input type="submit" value="Отправить">
+            <input type="text" pattern="[0-9]*" placeholder="only digits"  autocomplete="off">
+            <input type="text" required placeholder="required">
+            <progress value="25" max="100"></progress>
+            <input type="submit" value="Отправить">            
         </form>
+        
+        <hr>
+        <a href="#link1">Color 1</a>
+        <a href="#link2">Color 2</a>
+        <a href="#link3">Color 3</a>
+        <div class="links tr1" id="link1"></div>
+        <div class="links tr2" id="link2"></div>
+        <div class="links tr3" id="link3"></div>
+        <hr>
 
         <p id="x">P c id x</p>
         <p>P, в котором рядом с <b>B</b> находится <em>EM</em></p>
