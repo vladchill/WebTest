@@ -62,11 +62,12 @@ footer {
     text-align: center;
 }
 
-.block1 *:before {
+/*vert align*/
+.block1 *:before { 
     display: inline-block;
     height: 100%;
     vertical-align: middle;
-    content: "";
+    content: "";    
 }
 
 article {    
@@ -75,6 +76,28 @@ article {
     margin-right: 200px;
 }
 
+.links {
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    border:black solid thin;
+    display: none;
+}
+.tr1 {
+    background-color: deeppink;
+}
+.tr2 {
+    background-color: orange;
+}
+.tr3 {
+    background-color: red;
+}
+
+
+
+div:target {
+    display: block;
+}
 
 
 /*body > *:first-child {
