@@ -29,12 +29,19 @@
             <input type="text" list="browsers" placeholder="Set browsers">
             <input type="text" autofocus maxlength="5">
             <input type="text" pattern="[0-9]*" placeholder="only digits"  autocomplete="off">
-            <input type="text" required placeholder="required">
-            <progress value="25" max="100"></progress>
+            <input type="text" required placeholder="required">            
             <input type="submit" value="Отправить">            
         </form>
-        
+
         <hr>
+
+        <div>
+            <button onclick="minus()">-</button>
+            <progress id="pr" value="50" max="100"></progress>
+            <button onclick="plus()">+</button>
+            <input id="dt" type="text" readonly value="50">
+        </div>
+
         <a href="#link1">Color 1</a>
         <a href="#link2">Color 2</a>
         <a href="#link3">Color 3</a>
