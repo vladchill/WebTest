@@ -1,0 +1,16 @@
+fieldset {
+    display:inline-block;
+}
+
+input:not(:last-child) {
+    display:block;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+input:focus:not(:last-child) {
+    border-color:#0088cc;
+    box-shadow: inset 0px 0px 7px 0px rgba(0,136,204,0.31), 0px 0px 5px 0px rgba(0,0,0,0.41);    
+}

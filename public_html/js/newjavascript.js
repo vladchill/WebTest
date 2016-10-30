@@ -13,9 +13,9 @@
 
 //var num;
 
-do {
-  num = prompt("Введите число больше 100?", 0);
-} while ( num <= 100 && num != null || String(+num) == "NaN");
+//do {
+//  num = prompt("Введите число больше 100?", 0);
+//} while ( num <= 100 && num != null || String(+num) == "NaN");
 
 //while (true) {
 //    num = prompt("Введите число больше 100?", 0);

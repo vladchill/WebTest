@@ -13,22 +13,7 @@ b + em { color: green }
 div em { color: blue }
 div#y > em { color: orange }
 
-fieldset {
-    display:inline-block;
-}
 
-input:not(:last-child) {
-    display:block;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 8px;
-}
-
-input:focus:not(:last-child) {
-    border-color:#0088cc;
-    box-shadow: inset 0px 0px 7px 0px rgba(0,136,204,0.31), 0px 0px 5px 0px rgba(0,0,0,0.41);    
-}
 
 header {
     margin-top: 20px;
@@ -70,12 +55,15 @@ footer {
     content: "";    
 }
 
+
 article {    
     border: black solid 1px;
     margin-left: 200px;
     margin-right: 200px;
 }
-
+progress {
+    width: 400px;
+}
 .links {
     width: 30px;
     height: 30px;
@@ -92,12 +80,14 @@ article {
 .tr3 {
     background-color: red;
 }
-
-
-
 div:target {
     display: block;
 }
+
+
+
+    
+
 
 
 /*body > *:first-child {

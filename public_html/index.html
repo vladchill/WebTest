@@ -7,6 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--<meta http-equiv="Refresh" content="4">-->
         <link rel="stylesheet" href="css/newcss.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+        <link rel="stylesheet" href="css/forms.css">
         <script src="js/newjavascript.js"></script>       
     </head>
     <body>
@@ -34,10 +36,9 @@
         </form>
 
         <hr>
-
         <div>
             <button onclick="minus()">-</button>
-            <progress id="pr" value="50" max="100"></progress>
+            <progress id="pr" value="50" max="100" ></progress>
             <button onclick="plus()">+</button>
             <input id="dt" type="text" readonly value="50">
         </div>
@@ -48,6 +49,39 @@
         <div class="links tr1" id="link1"></div>
         <div class="links tr2" id="link2"></div>
         <div class="links tr3" id="link3"></div>
+        <hr>
+
+        <div class="album">
+            <ul>
+                <li> 
+                    <a href="#image-1">               
+                        <img src="pictures/The-Prophet-New-Muslims-and-Us-new-muslims.jpg" alt=""/>
+                    </a>
+                </li>
+                <li> 
+                    <a href="#image-2"> 
+                        <img src="pictures/index.jpg" alt=""/>
+                    </a>
+                </li>
+                <li>
+                    <a href="#image-3"> 
+                        <img src="pictures/nature-wallpapers-8.jpg" alt=""/>
+                    </a>
+                </li>
+                <li> 
+                    <a href="#image-4"> 
+                        <img src="pictures/pictures-24.jpg" alt=""/>
+                    </a>
+                </li>
+            </ul>
+            <div class="overlay" id="image-1">
+                <div>
+                <img src="pictures/The-Prophet-New-Muslims-and-Us-new-muslims.jpg" alt=""/>
+                <span>Картинка</span>
+                <a href="#clsbtn"><img class="closebtn" src="pictures/close-button-png-23.png" alt=""/></a>
+                </div>
+            </div>
+        </div>        
         <hr>
 
         <p id="x">P c id x</p>
@@ -61,6 +95,10 @@
             <section class="right">Right</section>
             <article>Article</article>
             <footer>Footer</footer>
+        </div>
+        
+        <div class="vk">
+            block1
         </div>
         
     </body>
