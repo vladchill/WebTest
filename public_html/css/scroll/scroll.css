@@ -1,0 +1,6 @@
+.scroll-pane {
+    height: 200px;
+    overflow: hidden;
+    padding: 0px;
+    width: 760px
+}
