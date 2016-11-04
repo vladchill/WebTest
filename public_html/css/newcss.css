@@ -84,10 +84,11 @@ div:target {
     display: block;
 }
 
-
-
-    
-
+.gradient {
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+  text-align: center;  
+  font-weight: bolder;  
+}
 
 
 /*body > *:first-child {
